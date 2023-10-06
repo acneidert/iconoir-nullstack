@@ -37,4 +37,5 @@ List of available icons: https://iconoir.com/
 This version includes **Iconoir Icons v6.11.0**, see [changelog](https://github.com/iconoir-icons/iconoir/releases) to know which icons are available.
 
 
-## Thanks to [nullstack-feather-icons](https://github.com/fccoelho7/nullstack-feather-icons) where I stole the idea and some codes XD
+## Thanks 
+To [nullstack-feather-icons](https://github.com/fccoelho7/nullstack-feather-icons) where I stole the idea and some codes XD
