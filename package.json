@@ -1,0 +1,42 @@
+{
+  "name": "iconoir-nullstack",
+  "version": "1.0.0",
+  "description": "Iconoir as nullstack component",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "nullstack",
+    "icons",
+    "feather"
+  ],
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "compile": "node build.js",
+    "build": "npm run clean && npm run compile",
+    "release": "npm run build && npm publish"
+  },
+  "author": {
+    "email": "acneidert@gmail.com",
+    "name": "André Neidert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acneidert/iconoir-nullstack.git"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@svgr/core": "^8.0.0",
+    "@svgr/plugin-jsx": "^8.0.1",
+    "@svgr/plugin-prettier": "^8.0.1",
+    "@svgr/plugin-svgo": "^8.0.1",
+    "iconoir": "^6.11.0",
+    "fs-extra": "^11.1.0",
+    "nullstack": "^0.19.1",
+    "pascal-case": "^4.0.0"
+  }
+}
