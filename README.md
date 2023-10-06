@@ -1,8 +1,8 @@
-# Nullstack Feather Icons
+# Nullstack Iconoir Icons
 
 ## Description
 
-This package allows you to use the [Feather Icons](https://feathericons.com/) in your Nullstack applications. Feather Icons is a set of free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a 2px stroke.
+This package allows you to use the [Iconoir Icons](https://iconoir.com/) in your Nullstack applications. Iconoir is an open-source library with 1300+ unique SVG icons, designed on a 24x24 pixels grid. No premium icons, no email sign-up, no newsletters.
 
 ## Usage
 
