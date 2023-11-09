@@ -34,7 +34,7 @@ export default function MyApp() {
 
 List of available icons: https://iconoir.com/
 
-This version includes **Iconoir Icons v6.11.0**, see [changelog](https://github.com/iconoir-icons/iconoir/releases) to know which icons are available.
+This version includes **Iconoir Icons v7.0.0**, see [changelog](https://github.com/iconoir-icons/iconoir/releases) to know which icons are available.
 
 
 ## Thanks 
