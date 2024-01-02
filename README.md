@@ -9,15 +9,15 @@ This package allows you to use the [Iconoir Icons](https://iconoir.com/) in your
 1. Install the package
 
 ```sh
-npm install nullstack-iconoir
+npm install iconoir-nullstack
 # or
-yarn add nullstack-iconoir
+yarn add iconoir-nullstack
 ```
 
 2. Import and use it
 
 ```jsx
-import { IconArchive } from "nullstack-iconoir";
+import { IconArchive } from "iconoir-nullstack";
 
 export default function MyApp() {
   return (
@@ -34,7 +34,7 @@ export default function MyApp() {
 
 List of available icons: https://iconoir.com/
 
-This version includes **Iconoir Icons v7.0.0**, see [changelog](https://github.com/iconoir-icons/iconoir/releases) to know which icons are available.
+This version includes **Iconoir Icons v7.3.0**, see [changelog](https://github.com/iconoir-icons/iconoir/releases) to know which icons are available.
 
 
 ## Thanks 

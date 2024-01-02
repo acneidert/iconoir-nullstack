@@ -1,6 +1,6 @@
 {
   "name": "iconoir-nullstack",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Iconoir as nullstack component",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "clean": "rm -rf ./dist",
-    "compile": "node build.js",
+    "compile": "node build.mjs",
     "build": "npm run clean && npm run compile",
     "release": "npm run build && npm publish"
   },
@@ -28,14 +28,17 @@
     "url": "https://github.com/acneidert/iconoir-nullstack.git"
   },
   "sideEffects": false,
-  "dependencies": {
+  "devDependencies": {
     "@svgr/core": "^8.0.0",
     "@svgr/plugin-jsx": "^8.0.1",
     "@svgr/plugin-prettier": "^8.0.1",
     "@svgr/plugin-svgo": "^8.0.1",
-    "iconoir": "^7.0.0",
     "fs-extra": "^11.1.0",
-    "nullstack": "^0.19.1",
     "pascal-case": "^4.0.0"
+
+  },
+  "dependencies": {
+    "iconoir": "^7.3.0",
+    "nullstack": "^0.19.1"
   }
 }
