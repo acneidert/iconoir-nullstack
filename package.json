@@ -29,6 +29,7 @@
   },
   "sideEffects": false,
   "devDependencies": {
+    "iconoir": "^7.7.0",
     "@svgr/core": "^8.0.0",
     "@svgr/plugin-jsx": "^8.0.1",
     "@svgr/plugin-prettier": "^8.0.1",
@@ -38,7 +39,6 @@
 
   },
   "dependencies": {
-    "iconoir": "^7.3.0",
     "nullstack": "^0.19.1"
   }
 }
